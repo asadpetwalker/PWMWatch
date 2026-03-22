@@ -1,0 +1,253 @@
+(footprint "CDRH3D14HPNP100NC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CDRH3D14/HPNP-100NC-5")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b3996fea-3fd7-4bf5-97cf-c719dbc4602f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CDRH3D14HPNP100NC"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ccb5ca35-78b7-496f-98f1-b8a976511215")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b272904-d030-413e-9172-0beac8aff7b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc8444f3-ea86-4162-82ed-738e92e56a6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.1 0)
+		(end -3.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be750491-1943-4399-977f-307eff1ce5fe")
+	)
+	(fp_line
+		(start -3 0)
+		(end -3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2498556-6b0e-4dc6-8973-d550d1f7f2c6")
+	)
+	(fp_line
+		(start -0.4 -1.9)
+		(end 0.4 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5664065a-7c50-49cb-8ab2-e125784f1de4")
+	)
+	(fp_arc
+		(start -3.1 0)
+		(mid -3.05 -0.05)
+		(end -3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c69e5958-2ace-4dac-9deb-0fa3f8c14fc7")
+	)
+	(fp_arc
+		(start -3 0)
+		(mid -3.05 0.05)
+		(end -3.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9435c0c7-fb24-40b8-8ff6-6156be401fd5")
+	)
+	(fp_line
+		(start -3.6 -2.9)
+		(end 3.6 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1e31d824-9b70-4163-b568-917a540a48af")
+	)
+	(fp_line
+		(start -3.6 2.9)
+		(end -3.6 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a92937f-b501-4f10-a7f5-dc5bbb400b2b")
+	)
+	(fp_line
+		(start 3.6 -2.9)
+		(end 3.6 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46e7d7a9-3a0c-4521-aca3-b2b8eb388c3a")
+	)
+	(fp_line
+		(start 3.6 2.9)
+		(end -3.6 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "65782ebe-0a35-437e-8195-6af870b516aa")
+	)
+	(fp_line
+		(start -1.9 -0.8)
+		(end -0.4 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5976b121-31ca-4bcc-a56e-6e42e1937263")
+	)
+	(fp_line
+		(start -1.9 0.8)
+		(end -1.9 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dfbe5435-0abd-44d8-b511-1c1ec8e31973")
+	)
+	(fp_line
+		(start -0.4 -1.9)
+		(end 0.4 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e06d0222-9e4b-4668-96c0-d46d34cd630e")
+	)
+	(fp_line
+		(start 0 1.9)
+		(end -1.9 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7bcc634a-e69e-40c3-8c2c-d6637c693c85")
+	)
+	(fp_line
+		(start 0.4 -1.9)
+		(end 1.9 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c04ef3fb-4763-4dc7-bac5-ca154a93938b")
+	)
+	(fp_line
+		(start 1.9 -0.8)
+		(end 1.9 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0c25534-a35d-45f5-9810-102a16621f90")
+	)
+	(fp_line
+		(start 1.9 0.8)
+		(end 0 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a70a4da8-878b-47f1-894e-0dc1c68b8822")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "762b5d96-3b93-4da5-9405-a88a7b07727a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.9 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4d09a446-cc50-484c-b930-ea9fc2e5f511")
+	)
+	(pad "2" smd rect
+		(at 1.9 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "46ef4ce4-a9cc-4cfd-a07c-39f7243de66e")
+	)
+	(embedded_fonts no)
+	(model "CDRH3D14_HPNP-100NC.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -45)
+		)
+	)
+)

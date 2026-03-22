@@ -6828,6 +6828,18 @@
 		(uuid "0098fdb7-7590-434c-85f7-4c192b7efc66")
 	)
 	(no_connect
+		(at 176.53 124.46)
+		(uuid "0f6fd218-95a8-450b-b329-c3e32c8babdf")
+	)
+	(no_connect
+		(at 176.53 129.54)
+		(uuid "171385d2-5f9e-423c-b54b-e64c3be180b4")
+	)
+	(no_connect
+		(at 176.53 121.92)
+		(uuid "1b2d0f6e-e895-479f-bdb9-c5f3a0cb3211")
+	)
+	(no_connect
 		(at 128.27 154.94)
 		(uuid "20f9e1d2-fc76-42f2-9ed3-163cd22adbdb")
 	)
@@ -6844,12 +6856,44 @@
 		(uuid "3835b5d3-d371-4461-acc7-e4337e9d9c98")
 	)
 	(no_connect
+		(at 176.53 106.68)
+		(uuid "386cffdd-f985-4838-ac93-f1e31cb5c395")
+	)
+	(no_connect
+		(at 128.27 114.3)
+		(uuid "39dc28c0-8801-4215-b0da-164ffd09a2fa")
+	)
+	(no_connect
 		(at 66.04 102.87)
 		(uuid "3e61d714-99f2-4991-9178-b263cf37f4a0")
 	)
 	(no_connect
+		(at 176.53 132.08)
+		(uuid "418c3d7f-52c8-4f0d-a7d2-4f412cdbc692")
+	)
+	(no_connect
+		(at 128.27 111.76)
+		(uuid "4268f592-8274-49f2-8b1c-c8dc48593907")
+	)
+	(no_connect
 		(at 43.18 160.02)
 		(uuid "499a4d9d-70d7-443d-bebf-cb4b0f634b4d")
+	)
+	(no_connect
+		(at 176.53 116.84)
+		(uuid "5e34b882-6beb-4de8-89c5-b4c27512e24f")
+	)
+	(no_connect
+		(at 128.27 147.32)
+		(uuid "647967fa-3939-4739-9c46-bdc2cf8bae2a")
+	)
+	(no_connect
+		(at 128.27 144.78)
+		(uuid "74a334c0-2184-4a87-986f-4e39d724f2b8")
+	)
+	(no_connect
+		(at 176.53 139.7)
+		(uuid "7906c140-5bf2-4d6c-9e2a-f72f191aecf0")
 	)
 	(no_connect
 		(at 128.27 165.1)
@@ -6868,12 +6912,28 @@
 		(uuid "9332e80f-e480-4e79-a346-242c934ab043")
 	)
 	(no_connect
+		(at 128.27 119.38)
+		(uuid "94adfb84-6712-4344-94c3-d9517ddc6327")
+	)
+	(no_connect
+		(at 128.27 137.16)
+		(uuid "a08f75cf-b5b5-4d4b-95a1-7ef3fd4312d7")
+	)
+	(no_connect
 		(at 128.27 152.4)
 		(uuid "a482d6f0-9e43-4daf-917f-d70931d90902")
 	)
 	(no_connect
+		(at 176.53 109.22)
+		(uuid "abafaa11-d8c8-4b49-8480-8ab73841f5b6")
+	)
+	(no_connect
 		(at 265.43 152.4)
 		(uuid "abffda8e-943d-4eca-b520-ff7a7885d9e3")
+	)
+	(no_connect
+		(at 128.27 134.62)
+		(uuid "b264f05d-8bc1-4ad7-ab75-806e0051cbb9")
 	)
 	(no_connect
 		(at 62.23 30.48)
@@ -6882,6 +6942,34 @@
 	(no_connect
 		(at 128.27 149.86)
 		(uuid "b5f79d2c-b53b-4077-b077-96ffe1672b71")
+	)
+	(no_connect
+		(at 176.53 144.78)
+		(uuid "bcf67d25-ab9a-468e-8c8a-2f7fee074313")
+	)
+	(no_connect
+		(at 128.27 129.54)
+		(uuid "bcf6c4a3-79db-4bfc-abab-2e8674ec86d2")
+	)
+	(no_connect
+		(at 128.27 142.24)
+		(uuid "c23815a4-d6ed-42ce-9db4-f8fbcc17d2b2")
+	)
+	(no_connect
+		(at 176.53 114.3)
+		(uuid "d985453b-8f80-449f-8f95-535e01890f00")
+	)
+	(no_connect
+		(at 176.53 127)
+		(uuid "e38b3da1-37d8-4f81-b0f1-f972d72db70f")
+	)
+	(no_connect
+		(at 176.53 111.76)
+		(uuid "f9bf1049-a606-462f-96aa-328921242ba0")
+	)
+	(no_connect
+		(at 176.53 142.24)
+		(uuid "facbf788-0544-4b2b-ada8-241476f1a924")
 	)
 	(wire
 		(pts
@@ -11531,7 +11619,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 92.71 115.57 0)
 			(effects
 				(font
@@ -11870,7 +11958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.822 35.56 90)
 			(effects
 				(font
@@ -13771,7 +13859,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 81.28 139.7 0)
 			(effects
 				(font
@@ -13908,7 +13996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Uni:GCT_MEM2061-01-188-00-A_REVA"
+		(property "Footprint" "Watch:MOLEX_5025700893"
 			(at 20.32 97.79 0)
 			(effects
 				(font
@@ -14002,7 +14090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Uni:BAT_BK-414"
+		(property "Footprint" "Watch:BAT_BK-414"
 			(at 220.98 154.686 90)
 			(effects
 				(font
@@ -15057,7 +15145,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 31.75 167.64 0)
 			(effects
 				(font
@@ -15166,7 +15254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Watch:SW_EVQ-P7A01P"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -15738,7 +15826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Uni:IND_TAIYO_NRS4018_TAY"
+		(property "Footprint" "Watch:CDRH3D14HPNP100NC"
 			(at 157.48 21.59 0)
 			(effects
 				(font
@@ -15756,7 +15844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "CDRH3D14"
 			(at 157.48 21.59 0)
 			(effects
 				(font
@@ -16075,7 +16163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Uni:GCT_FFC2A32-24-T"
+		(property "Footprint" "Watch:GCT_FFC2A32-24-T"
 			(at 229.87 49.53 0)
 			(effects
 				(font
@@ -16864,7 +16952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Uni:IC_RV-3028-C8-32.768KHZ-1PPM-TA-QC"
+		(property "Footprint" "Watch:IC_RV-3028-C8-32.768KHZ-1PPM-TA-QC"
 			(at 230.886 136.398 0)
 			(effects
 				(font
@@ -16951,7 +17039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 82.55 69.596 90)
 			(effects
 				(font
