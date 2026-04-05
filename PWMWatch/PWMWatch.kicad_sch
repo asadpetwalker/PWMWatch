@@ -15937,7 +15937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Watch:BAT_BK-414"
+		(property "Footprint" "Watch:BAT_2994"
 			(at 220.98 154.686 90)
 			(hide yes)
 			(show_name no)
