@@ -13093,6 +13093,7 @@
 		(property "Reference" "CC1"
 			(at 0 -4.445 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b8de9d91-06bf-406d-88e4-220cd8d8d131")
 			(effects
 				(font
@@ -16756,28 +16757,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(gr_line
-		(start 123.25 81.23)
-		(end 123.25 111.23)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(locked yes)
-		(layer "Dwgs.User")
-		(uuid "e65a5ff7-a2d2-4fbf-995f-ef3858478263")
-	)
-	(gr_line
-		(start 145.75 96.23)
-		(end 100.75 96.23)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(locked yes)
-		(layer "Dwgs.User")
-		(uuid "49119de1-d9a0-4a57-924f-b0a9e0b3b201")
 	)
 	(gr_rect
 		(start 100.75 81.23)
