@@ -1,1 +1,51 @@
 # PWMWatch
+# What My Project Is
+My project is a watch using the CrystalFontz CFAL12856A0 transparent display, the STM32WB50CGU5 mcu, and the RV3028-C7 RTC.
+
+# Why I made my project
+The electronics of watches are like really cool, and I don't see anyone actually talking about them more. I smashed a broken smart watch with a hammer, and inside there was a bunch of electronics that were really cool when I desoldered them. Additionally, the display I found, the CrystalFontz CFAL12856A0 is really cool, and I wanted to combine these two things to make a really cool watch that also focuses on the electronics.
+
+# Pictures
+
+![alt text](image.png)
+![alt text](image-1.png)
+
+# BOM
+
+| Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
+|------|---------|----------|------------------|------|-------------|
+| PCB + Stencil | PCB |  | 21.55 |  | JLCPCB |
+| MBR0530TPMSCT-ND | DIODE SCHOTTKY 30V 500MA SOD123 | 2 | 0.30 | https://www.digikey.com/en/products/detail/mcc-micro-commercial-components/MBR0530-TP/717251 | Digikey |
+| RB521S30T1GOSCT-ND | DIODE SCHOTTKY 30V 200MA SOD523 | 2 | 0.30 | https://www.digikey.com/en/products/detail/onsemi/RB521S30T1G/920292 | Digikey |
+| B130LAW-FDICT-ND | DIODE SCHOTTKY 30V 1A SOD123 | 2 | 0.70 | https://www.digikey.com/en/products/detail/diodes-incorporated/B130LAW-7-F/725013 | Digikey |
+| 36-2994-ND | BATTERY RETAINER COIN 4.8MM SMD | 2 | 0.60 | https://www.digikey.com/en/products/detail/keystone-electronics/2994/2137865 | Digikey |
+| 2073-MEM2061-01-188-00-ACT-ND | CONN MICRO SD CARD R/A SMD | 2 | 2.24 | https://www.digikey.com/en/products/detail/gct/MEM2061-01-188-00-A/9859612 | Digikey |
+| 108-KMR211GLFSCT-ND | SWITCH TACTILE SPST-NO 0.05A 32V | 4 | 2.44 | https://www.digikey.com/en/products/detail/c-k/KMR211G-LFS/550475 | Digikey |
+| 308-1969-1-ND | FIXED IND 10UH 670MA 440 MOHM | 4 | 2.32 | https://www.digikey.com/en/products/detail/sumida-america-inc/CDRH3D14-HPNP-100NC/3946967 | Digikey |
+| 311-1140-1-ND | CAP CER 0.1UF 50V X7R 0805 | 40 | 0.48 | https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874 | Digikey |
+| 587-1441-1-ND | CAP CER 4.7UF 10V X5R 0603 | 10 | 0.20 | https://www.digikey.com/en/products/detail/taiyo-yuden/LMK107BJ475KA-T/1004029 | Digikey |
+| 311-2.7KGRCT-ND | RES 2.7K OHM 5% 1/10W 0603 | 10 | 0.08 | https://www.digikey.com/en/products/detail/yageo/RC0603JR-072K7L/726735 | Digikey |
+| 311-100KHRCT-ND | RES 100K OHM 1% 1/10W 0603 | 25 | 0.14 | https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889 | Digikey |
+| 311-47.0KHRCT-ND | RES 47K OHM 1% 1/10W 0603 | 10 | 0.08 | https://www.digikey.com/en/products/detail/yageo/RC0603FR-0747KL/727253 | Digikey |
+| 296-50511-1-ND | UNIDIR PRECISION SURGE DIODE | 3 | 2.85 | https://www.digikey.com/en/products/detail/texas-instruments/TVS1400DRVR/8566097 | Digikey |
+| 2195-RV-3028-C8-32.768KHZ-1PPM-TA-QCCT-ND | IC RTC CLK/CALENDAR I2C 8SON | 1 | 3.05 | https://www.digikey.com/en/products/detail/micro-crystal-ag/RV-3028-C8-32-768KHZ-1PPM-TA-QC/26226350 | Digikey |
+| AP3012KTR-G1DICT-ND | IC REG BOOST ADJ 500MA SOT23-5 | 2 | 0.58 | https://www.digikey.com/en/products/detail/diodes-incorporated/AP3012KTR-G1/4470846 | Digikey |
+| MAX17048G+T10CT-ND | IC BATT MON LI-ION 1CELL 8TDFN | 1 | 4.10 | https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX17048G-T10/3758921 | Digikey |
+| MCP73831T-2DCI/OTCT-ND | IC BATT CNTL LI-ION 1CEL SOT23-5 | 2 | 1.52 | https://www.digikey.com/en/products/detail/microchip-technology/MCP73831T-2DCI-OT/964305 | Digikey |
+| AS5600-ASOTCT-ND | IC SENSOR MAG ROTARY 12BIT 8SOIC | 1 | 3.09 | https://www.digikey.com/en/products/detail/ams-osram-usa-inc/AS5600-ASOT/4914338 | Digikey |
+| 3147-B1931NG--20D001114U1930CT-ND | LED GREEN DIFFUSED 0603 SMD | 2 | 0.54 | https://www.digikey.com/en/products/detail/harvatek-corporation/B1931NG-20D001114U1930/15861262 | Digikey |
+| BSS83PH6327XTSA1CT-ND | MOSFET P-CH 60V 330MA SOT23-3 | 2 | 0.88 | https://www.digikey.com/en/products/detail/infineon-technologies/BSS83PH6327XTSA1/2783473 | Digikey |
+| P19095CT-ND | SWITCH TACTILE SPST-NO 0.05A 12V | 4 | 1.20 | https://www.digikey.com/en/products/detail/panasonic-industry/EVQ-9P701P/5250479 | Digikey |
+| 2073-USB4105-GF-ACT-ND | CONN RCP USB2.0 TYP C 16P SMD RA | 4 | 3.12 | https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441 | Digikey |
+| 455-1788-1-ND | CONN HEADER SMD 2POS 1MM | 3 | 1.17 | https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM02B-SRSS-TB/926694 | Digikey |
+| 2073-FFC2A32-24-TCT-ND | CONN FFC VERT 24POS 0.5MM SMD | 4 | 2.56 | https://www.digikey.com/en/products/detail/gct/FFC2A32-24-T/10656996 | Digikey |
+| 469-1075-ND | MAGNET 0.236"D X 0.098"THICK CYL | 3 | 2.25 | https://www.digikey.com/en/products/detail/radial-magnets-inc/9049/6030786 | Digikey |
+| 728-1088-ND | BATTERY SLVR OX 1.55V COIN 4.8MM | 2 | 6.10 | https://www.digikey.com/en/products/detail/seiko-instruments/SR421SW/7428808 | Digikey |
+| 1528-1841-ND | BATTERY LITH-ION 3.7V 500MAH | 1 | 7.95 | https://www.digikey.com/en/products/detail/adafruit-industries-llc/1578/5054539 | Digikey |
+| 478-3868-1-ND | CAP TANT 4.7UF 10% 16V 1206 | 10 | 2.11 | https://www.digikey.com/en/products/detail/kyocera-avx/TAJA475K016RNJ/1126796 | Digikey |
+| 587-1300-1-ND | CAP CER 10UF 10V X5R 0805 | 10 | 0.16 | https://www.digikey.com/en/products/detail/taiyo-yuden/LMK212BJ106KG-T/930652 | Digikey |
+| 311-10.0KHRCT-ND | RES 10K OHM 1% 1/10W 0603 | 25 | 0.14 | https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880 | Digikey |
+| 311-5.10KHRCT-ND | RES 5.1K OHM 1% 1/10W 0603 | 10 | 0.07 | https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268 | Digikey |
+| 311-470GRCT-ND | RES 470 OHM 5% 1/10W 0603 | 10 | 0.07 | https://www.digikey.com/en/products/detail/yageo/RC0603JR-07470RL/726791 | Digikey |
+| NCP1117LPST33T3GOSCT-ND | IC REG LINEAR 3.3V 1A SOT-223 | 2 | 0.74 | https://www.digikey.com/en/products/detail/onsemi/NCP1117LPST33T3G/2194024 | Digikey |
+| 497-STM32WB50CGU5-ND | IC RF TXRX+MCU 802.15.4 48UFQFPN | 2 | 10.80 | https://www.digikey.com/en/products/detail/stmicroelectronics/STM32WB50CGU5/10673126 | Digikey |
